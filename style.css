@@ -1,0 +1,116 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	overflow-y: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+	background-image: url("background.jpg");
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+.filters {
+	position: fixed;
+	font-family: courier;
+	font-size: 13px;
+	text-align: center;
+	width: 100%;
+	top: calc(22% - 50px);
+	margin: 0 auto;
+}
+
+.description {
+	position: 	fixed;
+	font-family: courier;
+	font-size: 13px;
+	text-align: center;
+	width: 100%;
+	top: calc(17% - 50px);
+	margin: 0 auto;
+}
+
+select {
+	font-family: courier;
+	font-size: 12px;
+	border: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: none;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align: center;
+}
+
+.bookshelf-wrapper {
+	height: 88%;
+	left: -10%;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+	/*background-color: lightgrey;*/
+	height: 580px;
+	position: absolute;
+	top: 30%;
+	margin: 0 auto;
+}
+
+#books {
+	height: 85%;
+	margin: 0 auto;
+	margin-left: 100px;
+}
+
+#shelf {
+	position: relative;
+	background-color: tan;
+	height: 20px;
+	width: 2000px;
+	border: solid;
+	border-width: 2.5px;
+	border-radius: 4px;
+	bottom: 53px;
+	left: 50px;
+}
+
+svg {
+	height: 100%;
+	width: 2500px;
+}
+
+text {
+	color: black;
+	font-size: 11px;
+	font-family: courier;
+	transform: rotate(-90deg);
+ 	z-index: 100;
+ 	visibility: hidden;
+ 	text-transform: lowercase;
+}
+
+text:hover {
+	opacity:1;
+}
+.title {
+	
+}
+
+.rect:hover {
+	z-index: 1;
+	opacity: .8;
+	cursor: pointer;
+}
+
+
+.text {
+
+	margin-left: 100px;
+	transform: translateX(200px);
+	padding-left: 1000px
+}
